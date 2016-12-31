@@ -1,4 +1,6 @@
-alert('Dziala!!!');
 var igor = "lubie"
 var placek = "placki ziemniaczane"
-alert(igor + placek)
+setInterval(function () {
+$('#test').append('<p>' + igor + ' ' + placek + '</p>');
+}, 1000);
+

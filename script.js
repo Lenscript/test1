@@ -1,6 +1,6 @@
-var igor = "lubie"
-var placek = "placki ziemniaczane"
+var igor = "lubię"
+var placek = "programować"
 setInterval(function () {
 $('#test').append('<p>' + igor + ' ' + placek + '</p>');
-}, 1000);
+}, 100);
 
